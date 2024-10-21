@@ -15,3 +15,81 @@ header {
   align-items: center;
   justify-content: space-around;
 }
+@media (max-width: 770px){
+  header{
+    flex-direction: column;
+    height: 30vh;
+  }
+
+}
+
+.BoxLogo{
+  width: 25vw;
+ display: flex;
+ align-items: center;
+ color:white;
+}
+@media (max-width: 770px){
+  .BoxLogo{
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.BoxLogo h1{
+  font-size: 1.7vw;
+  font-weight: 400;
+}
+@media (max-widht:770px){
+  .Boxlogo h1{
+    font-size: 2.5vw;
+  }
+}
+@media (max-widht: 500px){
+  .BoxLogo h1{
+    font-size: 3.1vw;
+  }
+}
+@media (max-widht: 1000px){
+  .BoxLogo img{
+    width: 9vw;
+  }
+}
+@media (max-widht: 770px){
+    .BoxLogo img{
+      width: 12vw;
+    }
+}
+@media (max-widht:  500px){
+    .BoxLogo img{
+      width: 15px;
+    }
+}
+nav{
+  width: 40vw;
+}
+@media (max-width: 770px){
+  nav{
+    width: 100%;
+  }
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5vw;
+}
+@media (max-width: 770px){
+  nav ul{
+    justify-content: space-evenly;
+    font-size: 2.3vw;
+  }
+}
+@media (max-width: 500px){
+  nav ul{
+    font-size: 3vw;
+  }
+}
+nav ul a{
+  color: white;
+}

@@ -87,6 +87,9 @@ sessaoSobre{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    @media (max-width: 600px){
+        
+    }
     p{
         border: solid 2px red;
         width: 38vw;
