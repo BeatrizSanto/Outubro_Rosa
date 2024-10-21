@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
 }
 
 header{
@@ -10,24 +16,91 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    @media(max-width: 700px){
+        flex-direction: column;
+        height: 30vh;
+    }
 }
 
 .BoxLogo{
-    border: solid 2px red;
+    //border: solid 2px red;
     width:25vw;
     display: flex;
     align-items: center;
+    @media(max-width: 700px){
+       flex-direction: column;
+       width: 100%;
+    }
+    img{
+        width: 6.5vw;
+        @media(max-width: 1000px){
+            font-size: 7.5vw;
+        }
+        @media(max-width: 700px){
+            width: 10vw;
+        }
+    }
 
     h1{
         color:white;
+        font-size: 1.7vw;
+        @media(max-width: 1000px){
+            font-size: 2.1vw;
+        }
+        @media(max-width: 700px){
+            font-size: 2.6vw;
+        }
     }
 }
+
 nav{
-    border: solid 2px yellow;
+    //border: solid 2px yellow;
     width: 40vw;
+    @media(max-width: 700px){
+        width: 100%;
+     }
     ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        font-size: 1.5vw;
+        @media(max-width: 1000px){
+            font-size: 2vw;
+        }
+        @media(max-width: 700px){
+            justify-content: space-evenly;
+            font-size: 2.6vw;
+         }
+
+        a{
+            color: white;
+        }
+    }
+}
+
+
+
+sessaoSobre{
+    border: solid 2px;
+    height: 60vh;
+    background-color: #FFD9EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    p{
+        border: solid 2px red;
+        width: 38vw;
+        font-size: 1.5vw;
+        @media(max-width: 800px){
+            font-size: 2vw;
+        }
+    }
+    img{
+        width: 25vw;
+        @media(max-width: 800px){
+            width: 30vw;
+        }
+
+
     }
 }
