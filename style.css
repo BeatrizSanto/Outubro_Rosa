@@ -94,3 +94,107 @@ nav ul a{
   color: white;
 }
 
+
+.sessaoSobre {
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFD9EC;
+}
+
+.sessaoSobre p {
+  width: 40%;
+  font-size: 25px;
+}
+
+.conscientização {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FF69B4;
+  height: 40vh;
+  color:white;
+}
+.conscientização p {
+  width: 40%;
+  font-size: 25px;
+  color: #E4EEF1;
+}
+
+.Dicas {
+  height: 50vh;
+  background-color: #FFD9EC;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Dicas img {
+  width: 20%;
+}
+
+footer {
+  height: 15vh;
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer section {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer ul {
+  text-align: center;
+}
+footer ul li {
+  color: #E4EEF1;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+  }
+  header nav {
+    width: 100%;
+  }
+  header nav ul {
+    justify-content: space-evenly;
+  }
+  header nav ul a {
+    font-size: 20px;
+  }
+  .sessaoSobre {
+    height: 80vh;
+    flex-direction: column-reverse;
+  }
+  .sessaoSobre p {
+    width: 95%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .conscientização {
+    height: 80vh;
+    flex-direction: column;
+  }
+  .conscientização p {
+    width: 95%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .Dicas {
+    flex-direction: column;
+    height: 70vh;
+  }
+  footer {
+    height: 50vh;
+    flex-direction: column-reverse;
+  }
+  footer section {
+    width: 80%;
+  }
+}/*# sourceMappingURL=style.css.map */
