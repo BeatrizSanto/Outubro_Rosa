@@ -88,14 +88,25 @@ sessaoSobre{
     align-items: center;
     justify-content: space-evenly;
     @media (max-width: 600px){
-        
+        flex-direction: column-reverse;
+        height: 70vh;
+
     }
     p{
         border: solid 2px red;
         width: 38vw;
         font-size: 1.5vw;
-        @media(max-width: 800px){
+        @media (max-width: 800px){
             font-size: 2vw;
+            width: 40vw;
+        }
+        @media (max-width: 600px){
+            width: 70vw;
+            font-size: 2.4vw;
+        }
+        @media (max-width: 450px){
+            font-size: 3vw;
+            width: 75vw;
         }
     }
     img{
@@ -103,7 +114,11 @@ sessaoSobre{
         @media(max-width: 800px){
             width: 30vw;
         }
-
-
+        @media(max-width: 600px){
+            width: 34vw;
+        }
+        @media(max-width: 450px){
+            width: 46vw;
+        }
     }
 }
